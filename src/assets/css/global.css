@@ -1,0 +1,46 @@
+/* 全局样式表 */
+html,body,#app{/* 多个并列时中间有逗号分隔，#表示id */
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  min-width: 1366px;
+}
+
+/* 覆盖默认样式，写到global.css样式中 */
+.el-breadcrumb{
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+
+.el-card{
+  box-shadow: 0 1px 1px rgba(0,0,0,0.15) !important;
+}
+.el-table{
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+/* 解决表头与表格列宽不一样 */
+body .el-table th.gutter{
+  display: table-cell!important;
+}
+
+  .el-pagination{
+    margin-top: 10px;
+  }
+/* 设置级联选择器高度 */
+.el-cascader-panel{
+  height: 300px;
+}
+
+.el-steps{
+  margin: 15px 0;
+}
+
+.el-step__title{
+  font-size: 13px;
+}
+
+.ql-blank{
+  min-height:300px
+}
